@@ -21,17 +21,28 @@
   },
   "homepage": "https://github.com/Klab-Rwanda/KlabOfficialWebsiteBe#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
     "nodemon": "^3.1.10",
-    "pg": "^8.16.3"
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.16.3",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
     "@babel/node": "^7.28.0",
     "@babel/preset-env": "^7.28.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.0.13",
+    "@types/passport-google-oauth20": "^2.0.16",
     "@types/pg": "^8.15.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"

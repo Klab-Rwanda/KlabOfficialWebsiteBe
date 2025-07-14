@@ -3,7 +3,7 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/db-test", async (req, res) => {
+router.get("/", async (req, res) => {
     try {
       const result = await pool.query("SELECT NOW()");
       res.json({ connected: true, time: result.rows[0].now });
